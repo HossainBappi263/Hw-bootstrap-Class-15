@@ -1,0 +1,309 @@
+/* All common CSS Start*/
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+}
+ul, ol{
+    list-style-type:none;
+}
+a, a:hover{
+    text-decoration:none;
+    display:inline-block;
+}
+h1,h2,h3,h4,h5,h,p{
+    margin:0;
+    padding:0;
+    line-height:0.8;
+}
+/* All common CSS End */
+/* Header Part Start*/
+.nav-link{
+    font-size:14px;
+    font-weight:500;
+    color:#222;
+    position: relative;
+    padding:0;
+}
+.nav-link::after{
+    width:26px;
+    height:2px;
+    content:"";
+    background:#212529;
+    position:absolute;
+    left:8px;
+    bottom:0;
+    visibility: hidden;
+    opacity: 0;
+}
+.nav-link:hover.nav-link::after{
+    visibility: visible;
+    opacity: 1;
+}
+.menuIcons{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:15px;
+}
+
+/* Header Part End */
+/* Ads part Start*/
+#adsPart{
+    padding-top:100px;
+    padding-bottom:95px;
+}
+/* Ads part End  */
+/* Products Part Start */
+#productsPart{
+    padding:50px 0;
+}
+.headingTxt{
+    font-size:35px;
+    font-weight:400;
+    color:#222;
+    text-transform: uppercase;   
+}
+.headingTxt span{
+    font-weight:700;
+    text-transform: uppercase;
+}
+.textBtn button{
+    border:none;
+    background:transparent;
+    margin:0 20px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+.textBtn button:hover{
+    border-bottom:2px solid #222;
+    font-weight:700;
+
+}
+.textIcons{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-top:10px;
+}
+.textIcons h3{
+    font-size:14px;
+    font-weight:400;
+    color:#767676;
+}
+.textIcons .fa-heart{
+    font-size:16px;
+}
+.categoryTxt h4{
+    font-size:16px;
+    font-weight:400;
+    color:#222222;
+   margin-top:10px;
+
+}
+.categoryTxt span{
+    color:red;
+}
+.seeAllp a{
+    font-size:14px;
+    font-weight:500;
+    color:#212529;
+    border-bottom:2px solid #212529;
+    text-transform: uppercase;
+}
+/* Products Part End */
+/* Countdown Part Start*/
+#countdownPart {
+    padding-top:360px;
+    padding-bottom:45px;
+    background:url(../images/countdownimg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.shopNow a{
+    font-size:14px;
+    font-weight:500;
+    color:#222;  
+}
+.shopNow{
+    position: relative;
+}
+.shopNow:after{
+    height:2px;
+    width:50px;
+    background:#222;
+    left:0;
+    bottom:0;
+    position:absolute;
+    content:"";
+}
+.timerFlug{
+    position:relative;
+    margin-top:20px;
+    text-align:center;
+}
+.timerFlug h3{
+    font-size:30px;
+    font-weight:400;
+    color:#000;
+    padding-bottom:10px;
+}
+.timerFlug h4{
+    font-size:16px;
+    font-weight:700;
+    color:#767676;
+}
+.doubleDot{
+    font-size:30px;
+    font-weight:400;
+    color:#222;
+    position:absolute;
+    right: 102px;
+    top: -10px;
+    content:"";   
+}
+/* Countdown Part End */
+/* Pricing part Start*/
+#pricingPart{
+    padding:80px 0;
+}
+/* Pricing part End */
+/* Limited Edition Part start*/
+#limitedEdition{
+    padding:50px 0;
+}
+.edition h3{
+    font-size:14;
+    font-weight:500;
+    color:#222;
+}
+/* Limited Edition Part End */
+/* Instagram Part Start */
+#instagramPart {
+    padding:50px 0;
+}
+.instagram h3{
+    font-size:35px;
+    font-weight:400;
+    color:#222;
+}
+/* Instagram Part End */
+/* Icons Part Start*/
+#iconsPart {
+    padding:95px 0;
+}
+.iconsImg{
+    width:52px;
+    height:52px;
+    color:#222;
+}
+.iconsTxt h4{
+    font-size:18px;
+    font-weight:500;
+    color:#000;
+    margin:20px 0;
+}
+.iconsTxt p{
+    font-size:15px;
+    font-weight:400;
+    color:#767676;
+}
+/* Icons Part End */
+/* Footer Part Start*/
+#footerPart{
+    padding-top:100px;
+    padding-bottom:35px;
+    background:#CFCDCD;;
+}
+#footerPart p{
+    font-size:14px;
+    font-weight:400;
+    color:#000;
+    line-height:30px;
+    margin:40px 0;
+}
+.email a{
+    font-size:14px;
+    font-weight:700;
+    color:#000;
+}
+.phonenubmer a{
+    font-size:14px;
+    font-weight:700;
+    color:#000;
+}
+.subscribeBox{
+    width:330px;
+    height:55px;
+    background:#fff;
+    margin-bottom:15px;
+
+    display:flex;
+    text-align:center;
+    justify-content:space-between;
+    padding:0 20px;
+}
+.subscribeBox p{
+    transform: translateY(-27px);
+}
+.subscribeBox h5{
+        transform: translateY(20px);
+}
+.subscribeheading{
+    font-size:15px;
+    font-weight:500;
+    color:#000;
+    padding-top:45px;
+}
+.imgBtn{
+    width:324px;
+    height:38px;
+    margin-top:24px;
+}
+#bottomPart{
+    padding:20px 0;
+    background:#CFCDCD;
+
+}
+.footerBottom{
+    border-top:1px solid #ddd;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:20px 0;
+}
+.footerMenu {
+    display:flex;
+    gap:20px;
+    
+}
+.footerMenu a{
+    color:#555;
+}
+.language span,
+.currency span{
+    font-size:14px;
+    font-weight:400;
+    color:#767676;
+}
+.language i,
+.language a,
+.currency a{
+    color:#000;  
+}
+.languagesetting{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:5px;
+}
+.language{
+    display:flex;
+    gap: 10px;
+    align-items:center;
+    justify-content: space-between;
+}
+
+/* Footer Part End */
