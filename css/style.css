@@ -305,5 +305,24 @@ h1,h2,h3,h4,h5,h,p{
     align-items:center;
     justify-content: space-between;
 }
-
 /* Footer Part End */
+
+/* part start*/
+.shopNow a{
+    font-size:14px;
+    font-weight:400;
+    color:#222;
+    text-transform:uppercase;
+    position:relative;
+}
+.shopNow a::after{
+    position:absolute;
+    height:2px;
+    width:50px;
+    content:"";
+    color:#222;
+    left:0;
+    bottom:0
+}
+
+/* part End  */
